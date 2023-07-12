@@ -1,0 +1,44 @@
+# Meu Site de E-commerce
+
+![Logo](path/to/logo.png)
+
+Meu Site de E-commerce é uma aplicação web desenvolvida por mim, Lucas Valente, para oferecer aos usuários uma experiência de compra online conveniente e fácil. O objetivo do site é fornecer um catálogo de produtos, permitir aos usuários adicionar itens ao carrinho de compras e finalizar o processo de compra.
+
+## Tecnologias Utilizadas
+
+- HTML5
+- CSS3
+- JavaScript (ES6+)
+- Node.js
+- Express.js
+- Banco de Dados (ex: MySQL, MongoDB)
+- Bootstrap
+
+## Funcionalidades Principais, Por Enquanto.
+
+- Exibição de produtos em destaque
+- Adição de produtos ao carrinho de compras
+- Remoção de produtos do carrinho de compras
+- Limpeza do carrinho de compras
+- Finalização da compra (envio do formulário de pedido)
+- Recuperação de senha
+
+## Instalação
+
+1. Clone o repositório: `git clone https://github.com/callak95/meu-site-de-ecommerce.git`
+2. Instale as dependências: `npm install`
+3. Configure o banco de dados (MongoDB)
+4. Inicie o servidor: `npm start`
+5. Acesse a aplicação em: `http://localhost:3000`
+
+## Contribuição
+
+Contribuições são sempre bem-vindas! Se você quiser contribuir com melhorias, correções de bugs ou novas funcionalidades, sinta-se à vontade para enviar um pull request.
+
+## Autor
+
+Eu, Lucas Valente, sou o autor deste projeto.
+
+## Licença
+
+Este projeto está licenciado sob a [MIT License](LICENSE).

@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Meu Site de E-commerce</title>
+
+  <!-- Adicione o link para o arquivo style.css -->
+  <link rel="stylesheet" href="style.css">
+
+  <!-- Adicione os estilos do Bootstrap -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha3/css/bootstrap.min.css">
+</head>
+
+<body>
+  <header>
+    <h1>Bem-vindo ao meu E-commerce</h1>
+    <p>Encontre as melhores ofertas e produtos exclusivos!</p>
+
+    <!-- Ícone de login -->
+    <div class="login-icon">
+      <a href="#" class="login-button" onclick="showLoginModal()"><img src="path/to/login-icon.png" alt="Login"></a>
+    </div>
+  </header>
+
+  <div class="container">
+    <!-- Restante do conteúdo -->
+  </div>
+
+  <!-- Modal de login -->
+  <div class="login-modal">
+    <div class="login-form">
+      <h2>Fazer Login</h2>
+      <form id="login-form" onsubmit="submitLoginForm(event)">
+        <div class="form-group">
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" required>
+        </div>
+        <div class="form-group">
+          <label for="password">Senha</label>
+          <input type="password" id="password" name="password" required>
+        </div>
+        <button type="submit">Entrar</button>
+      </form>
+      <span class="forgot-password">Esqueceu a senha? <a href="#" onclick="showForgotPasswordModal()">Clique aqui</a></span>
+      <span class="close-button" onclick="closeLoginModal()">&times;</span>
+    </div>
+  </div>
+
+  <!-- Modal de recuperação de senha -->
+  <div class="forgot-password-modal">
+    <div class="forgot-password-form">
+      <h2>Recuperar Senha</h2>
+      <form id="forgot-password-form" onsubmit="submitForgotPasswordForm(event)">
+        <div class="form-group">
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" required>
+        </div>
+        <button type="submit">Enviar</button>
+      </form>
+      <span class="close-button" onclick="closeForgotPasswordModal()">&times;</span>
+    </div>
+  </div>
+
+  <!-- Adicione os scripts do Bootstrap -->
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha3/js/bootstrap.bundle.min.js"></script>
+
+  <!-- Adicione o script personalizado -->
+  <script src="cart.js"></script>
+</body>
+
+</html>
