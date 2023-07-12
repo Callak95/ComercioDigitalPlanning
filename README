@@ -1,8 +1,8 @@
-# Meu Site de E-commerce
+# ComercioDigitalPlanning
 
 ![Logo](path/to/logo.png)
 
-Meu Site de E-commerce é uma aplicação web desenvolvida por mim, Lucas Valente, para oferecer aos usuários uma experiência de compra online conveniente e fácil. O objetivo do site é fornecer um catálogo de produtos, permitir aos usuários adicionar itens ao carrinho de compras e finalizar o processo de compra.
+ComercioDigitalPlanning é uma aplicação web desenvolvida por mim, Lucas Valente, para oferecer aos usuários uma experiência de compra online conveniente e fácil. O objetivo do site é fornecer um catálogo de produtos, permitir aos usuários adicionar itens ao carrinho de compras e finalizar o processo de compra.
 
 ## Tecnologias Utilizadas
 
@@ -25,7 +25,7 @@ Meu Site de E-commerce é uma aplicação web desenvolvida por mim, Lucas Valent
 
 ## Instalação
 
-1. Clone o repositório: `git clone https://github.com/callak95/meu-site-de-ecommerce.git`
+1. Clone o repositório: `git clone https://github.com/callak95/ComercioDigitalPlanning.git`
 2. Instale as dependências: `npm install`
 3. Configure o banco de dados (MongoDB)
 4. Inicie o servidor: `npm start`
